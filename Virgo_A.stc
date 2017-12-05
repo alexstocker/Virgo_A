@@ -1,0 +1,14 @@
+#######################
+# Virgo_A.stc
+#######################
+# Virgo_A
+599999 "Virgo_A" {            # fake HIP id number & Star "name"
+		Texture "Virgo_A.png" 
+		Radius 15000000 
+        RA  98.0            # J2000 Right Ascension in degrees
+        Dec  5.04           # J2000 Declination in degrees
+        Distance  5500      # Distance from Sun in Light Years
+        SpectralType "M4 I-a"   # MK spectral and luminosity classification
+        AppMag -0.118           # Apparent visual brightness
+}
+#######################

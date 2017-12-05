@@ -1,0 +1,2503 @@
+"p1" "Virgo_A"
+{
+	Texture "callisto.jpg"
+	Radius 2569.6
+	Mass 0.1
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.17  # years
+		SemiMajorAxis     0.282  # AU
+		Eccentricity      0.007
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    1448.32
+	Obliquity         22
+	Albedo            0.070
+}
+
+"p2" "Virgo_A"
+{
+	Texture "callisto.jpg"
+	Radius 3108.2
+	Mass 0.1
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.32  # years
+		SemiMajorAxis     0.438  # AU
+		Eccentricity      0.002
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    2804.98
+	Obliquity         15
+	Albedo            0.070
+}
+
+"p3" "Virgo_A"
+{
+	Texture "callisto.jpg"
+	Radius 2965.4
+	Mass 0.1
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.57  # years
+		SemiMajorAxis     0.643  # AU
+		Eccentricity      0.013
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    4990.42
+	Obliquity         18
+	Albedo            0.070
+}
+
+"p4" "Virgo_A"
+{
+	Texture "callisto.jpg"
+	Radius 3188.5
+	Mass 0.1
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.78  # years
+		SemiMajorAxis     0.793  # AU
+		Eccentricity      0.045
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    65.09
+	Obliquity         15
+	Albedo            0.070
+}
+
+"p5" "Virgo_A"
+{
+	Texture "x.jpg"
+	Radius 7689.5
+	Mass 1.8
+
+	Color [ 0.75 0.75 1.0 ]
+	SpecularColor [ 0.5 0.5 0.55 ]
+	SpecularPower 25.0
+	HazeColor [ 1 1 1 ]
+	HazeDensity 0.3
+
+	Atmosphere {
+		Height 90
+		Lower [ 0.4 0.4 0.7 ]
+		Upper [ 0.2 0.2 0.6 ]
+		Sky [ 0.4 0.7 0.9 ]
+	}
+
+	EllipticalOrbit {
+		Period            1.12  # years
+		SemiMajorAxis     1.010  # AU
+		Eccentricity      0.095
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    14.07
+	Obliquity         23
+	Albedo            0.237
+}
+
+"p6" "Virgo_A"
+{
+	Texture "pluto.jpg"
+	Radius 5486.7
+	Mass 0.6
+
+	Color [ 1.0 0.9 0.75 ]
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+	}
+
+	EllipticalOrbit {
+		Period            1.57  # years
+		SemiMajorAxis     1.264  # AU
+		Eccentricity      0.067
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    16.75
+	Obliquity         18
+	Albedo            0.700
+}
+
+"p7" "Virgo_A"
+{
+	Texture "x.jpg"
+	Radius 17384.0
+	Mass 3.9
+
+	Color [ 0.75 0.85 1.0 ]
+	HazeColor [ 0.5 0.8 1.0 ]
+	HazeDensity 0.2
+
+	EllipticalOrbit {
+		Period            4.33  # years
+		SemiMajorAxis     2.487  # AU
+		Eccentricity      0.137
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    18.01
+	Obliquity         19
+	Albedo            0.526
+}
+
+"Xirius" "Virgo_A"
+{
+	Class "planet"
+	#Texture "XiriusHires.ctx"
+	Texture "xirius.png"
+	NightTexture "xiriusnight.png"
+	Radius 30333.2
+	Mass 23.3
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	EllipticalOrbit {
+		Period            8.29  # years
+		SemiMajorAxis     3.833  # AU
+		Eccentricity      0.25
+		Inclination       0.88
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+	
+	Atmosphere {
+		Height 70
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+
+		CloudHeight 10
+		CloudSpeed 150
+		CloudMap "earth-clouds.*"
+		CloudShadowDepth 5.0
+
+		Mie 0.0001
+		MieAsymmetry -0.9
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+	}
+
+	RotationPeriod    12.87
+	Obliquity         38
+	Albedo            0.464
+}
+
+"90999 xoom" "Virgo_A/Xirius" {
+
+	Class "moon" 
+	Texture "moon.jpg"
+	Color   [ 0.8 0.9 0.8 ] # "reddish"
+	BlendTexture true 
+	Radius 666
+	Mass 0.00000025
+	
+	#http://en.wikipedia.org/wiki/Vanth_%28moon%29
+
+	#OrbitFrame {
+	#	EquatorJ2000 { Center "Virgo_A/Xirius" }
+	#}	
+
+	EllipticalOrbit
+	{
+		Period	1
+		SemiMajorAxis 55412
+		#Eccentricity 0.0068
+		Inclination 3.3947
+		AscendingNode 76.681
+		#LongOfPericenter 131.533
+		#MeanAnomaly 181.979
+		Epoch 2452028.18381755
+	}
+	
+	#RotationPeriod 365.9344694
+	#Obliquity 3.3947
+	#LongOfRotationAxis 76.681
+	#RotationOffset 280.5
+	#PrecessionRate 48.98
+	#Orientation [180 1 0 0]
+	#EquatorAscendingNode 325
+}
+
+"90998 soom" "Virgo_A/Xirius" {
+
+	Class "moon" 
+	Texture "moon.jpg"
+	Color   [ 0.65 0.45 0.35 ] # "reddish"
+	BlendTexture true 
+	Radius 999
+	Mass 0.00000032
+	
+	#http://en.wikipedia.org/wiki/Vanth_%28moon%29
+
+	#OrbitFrame {
+	#	EquatorJ2000 { Center "Virgo_A/Xirius" }
+	#}	
+
+	EllipticalOrbit
+	{
+		Period	1.06
+		SemiMajorAxis 59582
+		#Eccentricity 0.0068
+		Inclination 18.3947
+		#AscendingNode 76.681
+		#LongOfPericenter 131.533
+		#MeanAnomaly 181.979
+		Epoch 2462058.18381755
+	}
+	
+	#RotationPeriod 365.9344694
+	#Obliquity 3.3947
+	#LongOfRotationAxis 76.681
+	#RotationOffset 280.5
+	#PrecessionRate 48.98
+	#Orientation [180 1 0 0]
+	#EquatorAscendingNode 325
+}
+
+"xoon" "Virgo_A/Xirius"
+{
+	Class "moon"
+    Texture "moon.png"
+    #Radius 500
+    #Oblateness 0.003
+    #InfoURL "http://www.nineplanets.org/pluto.html#Charon"
+
+    #Beginning           2451138    # Zarya module launched 20 Nov 1998
+
+    EllipticalOrbit {
+        #Period          1.2
+        #SemiMajorAxis   6767
+        #Eccentricity    0.0016886
+        #Inclination      51.5684
+        #AscendingNode   343.1518
+        #ArgOfPericenter 346.2476
+        #MeanAnomaly      13.8216
+        #Epoch           2452028.18381755
+    }
+
+    UniformRotation
+    {
+        #Inclination    51.5684
+        #MeridianAngle  -90
+        #AscendingNode 343.1518
+    }
+
+    #Orientation [180 1 0 0]
+
+    RotationPeriod	 1		# Guess
+	Obliquity		 45.823	# Guess
+	Albedo           0.55	# Guess
+}
+
+"p9" "Virgo_A"
+{
+	Texture "gasgiant.jpg"
+	Radius 25130.7
+	Mass 10.2
+
+	Color [ 0.75 0.85 1.0 ]
+	HazeColor [ 0.5 0.8 1.0 ]
+	HazeDensity 0.2
+
+	EllipticalOrbit {
+		Period            21.12  # years
+		SemiMajorAxis     7.151  # AU
+		Eccentricity      0.177
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    16.09
+	Obliquity         28
+	Albedo            0.507
+}
+
+"p10" "Virgo_A"
+{
+	Texture "jupiterlike.jpg"
+	Radius 88296.0
+	Mass 639.3
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	EllipticalOrbit {
+		Period            52.07  # years
+		SemiMajorAxis     13.062  # AU
+		Eccentricity      0.210
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    7.15
+	Obliquity         43
+	Albedo            0.503
+}
+
+"p11" "Virgo_A"
+{
+	Texture "gasgiant.jpg"
+	Radius 15334.5
+	Mass 1.3
+
+	Color [ 0.75 0.85 1.0 ]
+	HazeColor [ 0.5 0.8 1.0 ]
+	HazeDensity 0.2
+
+	EllipticalOrbit {
+		Period            125.47  # years
+		SemiMajorAxis     23.459  # AU
+		Eccentricity      0.009
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    27.14
+	Obliquity         32
+	Albedo            0.472
+}
+
+"p12" "Virgo_A"
+{
+	Texture "callisto.jpg"
+	Radius 5940.2
+	Mass 0.3
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            349.33  # years
+		SemiMajorAxis     46.426  # AU
+		Eccentricity      0.178
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    24.70
+	Obliquity         34
+	Albedo            0.150
+}
+
+"p1" "82 Eri"
+{
+	Texture "callisto.jpg"
+	Radius 1785.9
+	Mass 0.0
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.22  # years
+		SemiMajorAxis     0.362  # AU
+		Eccentricity      0.059
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    1936.49
+	Obliquity         16
+	Albedo            0.070
+}
+
+"p2" "82 Eri"
+{
+	Texture "callisto.jpg"
+	Radius 3972.5
+	Mass 0.2
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.29  # years
+		SemiMajorAxis     0.436  # AU
+		Eccentricity      0.022
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    2558.70
+	Obliquity         14
+	Albedo            0.070
+}
+
+"p3" "82 Eri"
+{
+	Texture "Earthlike.png"
+	Radius 5689.5
+	Mass 0.7
+
+	Color [ 0.85 0.85 1.0 ]
+	SpecularColor [ 0.5 0.5 0.55 ]
+	SpecularPower 25.0
+	HazeColor [ 1 1 1 ]
+	HazeDensity 0.3
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.5 0.5 0.65 ]
+		Upper [ 0.3 0.3 0.6 ]
+		Sky [ 0.3 0.6 0.9 ]
+		CloudHeight 7
+		CloudSpeed 65
+		CloudMap "earth-clouds.png"
+	}
+
+	EllipticalOrbit {
+		Period            0.64  # years
+		SemiMajorAxis     0.734  # AU
+		Eccentricity      0.009
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    20.45
+	Obliquity         16
+	Albedo            0.319
+}
+
+"p4" "82 Eri"
+{
+	Texture "callisto.jpg"
+	Radius 2421.8
+	Mass 0.1
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.85  # years
+		SemiMajorAxis     0.891  # AU
+		Eccentricity      0.097
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    56.11
+	Obliquity         19
+	Albedo            0.070
+}
+
+"p5" "82 Eri"
+{
+	Texture "gasgiant.jpg"
+	Radius 21438.7
+	Mass 8.9
+
+	Color [ 0.75 0.85 1.0 ]
+	HazeColor [ 0.5 0.8 1.0 ]
+	HazeDensity 0.2
+
+	EllipticalOrbit {
+		Period            2.53  # years
+		SemiMajorAxis     1.837  # AU
+		Eccentricity      0.022
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    14.74
+	Obliquity         16
+	Albedo            0.528
+}
+
+"p6" "82 Eri"
+{
+	Texture "x.jpg"
+	Radius 15131.7
+	Mass 2.3
+
+	Color [ 0.75 0.85 1.0 ]
+	HazeColor [ 0.5 0.8 1.0 ]
+	HazeDensity 0.2
+
+	EllipticalOrbit {
+		Period            5.22  # years
+		SemiMajorAxis     2.977  # AU
+		Eccentricity      0.004
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    20.26
+	Obliquity         35
+	Albedo            0.459
+}
+
+"p7" "82 Eri"
+{
+	Texture "pluto.jpg"
+	Radius 8503.8
+	Mass 1.0
+
+	Color [ 1.0 0.9 0.75 ]
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+	}
+
+	EllipticalOrbit {
+		Period            9.68  # years
+		SemiMajorAxis     4.495  # AU
+		Eccentricity      0.066
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    20.36
+	Obliquity         27
+	Albedo            0.333
+}
+
+"p8" "82 Eri"
+{
+	Texture "jupiterlike.jpg"
+	Radius 75801.7
+	Mass 480.7
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	EllipticalOrbit {
+		Period            14.76  # years
+		SemiMajorAxis     5.961  # AU
+		Eccentricity      0.015
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    7.08
+	Obliquity         45
+	Albedo            0.504
+}
+
+"p9" "82 Eri"
+{
+	Texture "mars.jpg"
+	Radius 5973.4
+	Mass 0.3
+
+	Color   [ 1 0.75 0.7 ]
+	HazeColor [ 1 1 1 ]
+	HazeDensity 0.45
+
+	Atmosphere {
+		Height 30
+		Lower [ 0.8 0.6 0.6 ]
+		Upper [ 0.7 0.3 0.3 ]
+		Sky [ 0.83 0.75 0.65 ]
+	}
+
+	EllipticalOrbit {
+		Period            32.06  # years
+		SemiMajorAxis     9.989  # AU
+		Eccentricity      0.122
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    24.62
+	Obliquity         50
+	Albedo            0.275
+}
+
+"p10" "82 Eri"
+{
+	Texture "jupiterlike.jpg"
+	Radius 66320.0
+	Mass 230.9
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	EllipticalOrbit {
+		Period            62.57  # years
+		SemiMajorAxis     15.605  # AU
+		Eccentricity      0.050
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    8.93
+	Obliquity         46
+	Albedo            0.460
+}
+
+"p11" "82 Eri"
+{
+	Texture "gasgiant.jpg"
+	Radius 15394.2
+	Mass 1.2
+
+	Color [ 0.75 0.85 1.0 ]
+	HazeColor [ 0.5 0.8 1.0 ]
+	HazeDensity 0.2
+
+	EllipticalOrbit {
+		Period            247.80  # years
+		SemiMajorAxis     39.053  # AU
+		Eccentricity      0.124
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    28.90
+	Obliquity         61
+	Albedo            0.504
+}
+
+"p12" "82 Eri"
+{
+	Texture "callisto.jpg"
+	Radius 2798.0
+	Mass 0.0
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            325.83  # years
+		SemiMajorAxis     46.873  # AU
+		Eccentricity      0.019
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    36.34
+	Obliquity         52
+	Albedo            0.150
+}
+
+"p1" "DEL Pav"
+{
+	Texture "callisto.jpg"
+	Radius 4918.0
+	Mass 0.5
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.30  # years
+		SemiMajorAxis     0.442  # AU
+		Eccentricity      0.166
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    1857.64
+	Obliquity         14
+	Albedo            0.070
+}
+
+"p2" "DEL Pav"
+{
+	Texture "callisto.jpg"
+	Radius 4394.6
+	Mass 0.3
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.73  # years
+		SemiMajorAxis     0.809  # AU
+		Eccentricity      0.007
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    30.23
+	Obliquity         20
+	Albedo            0.070
+}
+
+"p3" "DEL Pav"
+{
+	Texture "callisto.jpg"
+	Radius 2507.8
+	Mass 0.1
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            1.15  # years
+		SemiMajorAxis     1.089  # AU
+		Eccentricity      0.026
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    33.64
+	Obliquity         19
+	Albedo            0.070
+}
+
+"p4" "DEL Pav"
+{
+	Texture "Earthlike.png"
+	Radius 7039.2
+	Mass 1.4
+
+	Color [ 0.85 0.85 1.0 ]
+	SpecularColor [ 0.5 0.5 0.55 ]
+	SpecularPower 25.0
+	HazeColor [ 1 1 1 ]
+	HazeDensity 0.3
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.5 0.5 0.65 ]
+		Upper [ 0.3 0.3 0.6 ]
+		Sky [ 0.3 0.6 0.9 ]
+		CloudHeight 7
+		CloudSpeed 65
+		CloudMap "earth-clouds.png"
+	}
+
+	EllipticalOrbit {
+		Period            1.30  # years
+		SemiMajorAxis     1.184  # AU
+		Eccentricity      0.027
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    14.69
+	Obliquity         28
+	Albedo            0.299
+}
+
+"p5" "DEL Pav"
+{
+	Texture "pluto.jpg"
+	Radius 5569.9
+	Mass 0.7
+
+	Color [ 1.0 0.9 0.75 ]
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+	}
+
+	EllipticalOrbit {
+		Period            2.44  # years
+		SemiMajorAxis     1.801  # AU
+		Eccentricity      0.006
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    16.48
+	Obliquity         18
+	Albedo            0.668
+}
+
+"p6" "DEL Pav"
+{
+	Texture "pluto.jpg"
+	Radius 6933.7
+	Mass 1.3
+
+	Color [ 1.0 0.9 0.75 ]
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+	}
+
+	EllipticalOrbit {
+		Period            3.54  # years
+		SemiMajorAxis     2.306  # AU
+		Eccentricity      0.030
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    14.64
+	Obliquity         18
+	Albedo            0.700
+}
+
+"p7" "DEL Pav"
+{
+	Texture "jupiterlike.jpg"
+	Radius 51705.3
+	Mass 158.4
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	EllipticalOrbit {
+		Period            8.07  # years
+		SemiMajorAxis     3.996  # AU
+		Eccentricity      0.202
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    8.41
+	Obliquity         30
+	Albedo            0.499
+}
+
+"p8" "DEL Pav"
+{
+	Texture "jupiterlike.jpg"
+	Radius 84487.3
+	Mass 699.9
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	EllipticalOrbit {
+		Period            22.79  # years
+		SemiMajorAxis     7.991  # AU
+		Eccentricity      0.018
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    6.54
+	Obliquity         38
+	Albedo            0.518
+}
+
+"p9" "DEL Pav"
+{
+	Texture "gasgiant.jpg"
+	Radius 32192.5
+	Mass 18.1
+
+	Color [ 0.75 0.85 1.0 ]
+	HazeColor [ 0.5 0.8 1.0 ]
+	HazeDensity 0.2
+
+	EllipticalOrbit {
+		Period            142.97  # years
+		SemiMajorAxis     27.159  # AU
+		Eccentricity      0.000
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    15.51
+	Obliquity         32
+	Albedo            0.504
+}
+
+"p10" "DEL Pav"
+{
+	Texture "callisto.jpg"
+	Radius 5080.5
+	Mass 0.2
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            306.21  # years
+		SemiMajorAxis     45.125  # AU
+		Eccentricity      0.144
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    26.80
+	Obliquity         62
+	Albedo            0.150
+}
+
+"p1" "XI UMa"
+{
+	Texture "callisto.jpg"
+	Radius 2709.0
+	Mass 0.1
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.21  # years
+		SemiMajorAxis     0.344  # AU
+		Eccentricity      0.026
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    1868.08
+	Obliquity         18
+	Albedo            0.070
+}
+
+"p2" "XI UMa"
+{
+	Texture "callisto.jpg"
+	Radius 4172.7
+	Mass 0.3
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.37  # years
+		SemiMajorAxis     0.493  # AU
+		Eccentricity      0.008
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    3202.81
+	Obliquity         22
+	Albedo            0.070
+}
+
+"p3" "XI UMa"
+{
+	Texture "callisto.jpg"
+	Radius 1811.4
+	Mass 0.0
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.70  # years
+		SemiMajorAxis     0.759  # AU
+		Eccentricity      0.012
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    6109.96
+	Obliquity         30
+	Albedo            0.070
+}
+
+"p4" "XI UMa"
+{
+	Texture "callisto.jpg"
+	Radius 6485.8
+	Mass 1.1
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.85  # years
+		SemiMajorAxis     0.866  # AU
+		Eccentricity      0.031
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    15.51
+	Obliquity         24
+	Albedo            0.070
+}
+
+"p5" "XI UMa"
+{
+	Texture "Earthlike.png"
+	Radius 5676.9
+	Mass 0.7
+
+	Color [ 0.85 0.85 1.0 ]
+	SpecularColor [ 0.5 0.5 0.55 ]
+	SpecularPower 25.0
+	HazeColor [ 1 1 1 ]
+	HazeDensity 0.3
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.5 0.5 0.65 ]
+		Upper [ 0.3 0.3 0.6 ]
+		Sky [ 0.3 0.6 0.9 ]
+		CloudHeight 7
+		CloudSpeed 65
+		CloudMap "earth-clouds.png"
+	}
+
+	EllipticalOrbit {
+		Period            2.52  # years
+		SemiMajorAxis     1.789  # AU
+		Eccentricity      0.195
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    16.29
+	Obliquity         22
+	Albedo            0.208
+}
+
+"p6" "XI UMa"
+{
+	Texture "jupiterlike.jpg"
+	Radius 48014.3
+	Mass 161.7
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	EllipticalOrbit {
+		Period            3.86  # years
+		SemiMajorAxis     2.378  # AU
+		Eccentricity      0.093
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    7.73
+	Obliquity         23
+	Albedo            0.455
+}
+
+"p1" "41 Ari"
+{
+	Texture "callisto.jpg"
+	Radius 3567.2
+	Mass 0.2
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.24  # years
+		SemiMajorAxis     0.378  # AU
+		Eccentricity      0.079
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    2144.91
+	Obliquity         26
+	Albedo            0.070
+}
+
+"p2" "41 Ari"
+{
+	Texture "callisto.jpg"
+	Radius 2223.6
+	Mass 0.0
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.51  # years
+		SemiMajorAxis     0.618  # AU
+		Eccentricity      0.024
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    4489.24
+	Obliquity         14
+	Albedo            0.070
+}
+
+"p3" "41 Ari"
+{
+	Texture "Earthlike.png"
+	Radius 7064.3
+	Mass 1.4
+
+	Color [ 0.85 0.85 1.0 ]
+	SpecularColor [ 0.5 0.5 0.55 ]
+	SpecularPower 25.0
+	HazeColor [ 1 1 1 ]
+	HazeDensity 0.3
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.5 0.5 0.65 ]
+		Upper [ 0.3 0.3 0.6 ]
+		Sky [ 0.3 0.6 0.9 ]
+		CloudHeight 7
+		CloudSpeed 65
+		CloudMap "earth-clouds.png"
+	}
+
+	EllipticalOrbit {
+		Period            0.74  # years
+		SemiMajorAxis     0.791  # AU
+		Eccentricity      0.133
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    17.43
+	Obliquity         27
+	Albedo            0.205
+}
+
+"p4" "41 Ari"
+{
+	Texture "mars.jpg"
+	Radius 4102.9
+	Mass 0.3
+
+	Color   [ 1 0.75 0.7 ]
+	HazeColor [ 1 1 1 ]
+	HazeDensity 0.45
+
+	Atmosphere {
+		Height 30
+		Lower [ 0.8 0.6 0.6 ]
+		Upper [ 0.7 0.3 0.3 ]
+		Sky [ 0.83 0.75 0.65 ]
+	}
+
+	EllipticalOrbit {
+		Period            1.37  # years
+		SemiMajorAxis     1.192  # AU
+		Eccentricity      0.053
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    20.45
+	Obliquity         30
+	Albedo            0.560
+}
+
+"p5" "41 Ari"
+{
+	Texture "jupiterlike.jpg"
+	Radius 43733.5
+	Mass 89.4
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	EllipticalOrbit {
+		Period            3.72  # years
+		SemiMajorAxis     2.320  # AU
+		Eccentricity      0.211
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    9.47
+	Obliquity         36
+	Albedo            0.550
+}
+
+"p6" "41 Ari"
+{
+	Texture "x.jpg"
+	Radius 11248.1
+	Mass 2.4
+
+	Color [ 0.75 0.85 1.0 ]
+	HazeColor [ 0.5 0.8 1.0 ]
+	HazeDensity 0.2
+
+	EllipticalOrbit {
+		Period            7.40  # years
+		SemiMajorAxis     3.665  # AU
+		Eccentricity      0.056
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    17.35
+	Obliquity         22
+	Albedo            0.520
+}
+
+"p1" "BET Com"
+{
+	Texture "callisto.jpg"
+	Radius 2464.1
+	Mass 0.1
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.19  # years
+		SemiMajorAxis     0.337  # AU
+		Eccentricity      0.163
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    1205.12
+	Obliquity         15
+	Albedo            0.070
+}
+
+"p2" "BET Com"
+{
+	Texture "callisto.jpg"
+	Radius 3850.8
+	Mass 0.2
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.26  # years
+		SemiMajorAxis     0.418  # AU
+		Eccentricity      0.016
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    2310.69
+	Obliquity         15
+	Albedo            0.070
+}
+
+"p3" "BET Com"
+{
+	Texture "callisto.jpg"
+	Radius 2756.0
+	Mass 0.1
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.39  # years
+		SemiMajorAxis     0.544  # AU
+		Eccentricity      0.061
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    3433.85
+	Obliquity         23
+	Albedo            0.070
+}
+
+"p4" "BET Com"
+{
+	Texture "venuslike.jpg"
+	Radius 5986.7
+	Mass 0.8
+
+	HazeColor [ 0.5 0.35 0.2 ]
+	HazeDensity 0.35
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.8 0.5 ]
+		Upper [ 0.6 0.6 0.6 ]
+		Sky [ 0.8 0.8 0.5 ]
+	}
+
+	EllipticalOrbit {
+		Period            0.68  # years
+		SemiMajorAxis     0.787  # AU
+		Eccentricity      0.002
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    16.92
+	Obliquity         18
+	Albedo            0.520
+}
+
+"p5" "BET Com"
+{
+	Texture "Earthlike.png"
+	Radius 5990.1
+	Mass 0.8
+
+	Color [ 0.85 0.85 1.0 ]
+	SpecularColor [ 0.5 0.5 0.55 ]
+	SpecularPower 25.0
+	HazeColor [ 1 1 1 ]
+	HazeDensity 0.3
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.5 0.5 0.65 ]
+		Upper [ 0.3 0.3 0.6 ]
+		Sky [ 0.3 0.6 0.9 ]
+		CloudHeight 7
+		CloudSpeed 65
+		CloudMap "earth-clouds.png"
+	}
+
+	EllipticalOrbit {
+		Period            1.46  # years
+		SemiMajorAxis     1.307  # AU
+		Eccentricity      0.063
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    15.88
+	Obliquity         20
+	Albedo            0.182
+}
+
+"p6" "BET Com"
+{
+	Texture "mars.jpg"
+	Radius 4485.7
+	Mass 0.3
+
+	Color   [ 1 0.75 0.7 ]
+	HazeColor [ 1 1 1 ]
+	HazeDensity 0.45
+
+	Atmosphere {
+		Height 30
+		Lower [ 0.8 0.6 0.6 ]
+		Upper [ 0.7 0.3 0.3 ]
+		Sky [ 0.83 0.75 0.65 ]
+	}
+
+	EllipticalOrbit {
+		Period            2.37  # years
+		SemiMajorAxis     1.807  # AU
+		Eccentricity      0.060
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    18.43
+	Obliquity         31
+	Albedo            0.535
+}
+
+"p7" "BET Com"
+{
+	Texture "jupiterlike.jpg"
+	Radius 40080.2
+	Mass 79.2
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	EllipticalOrbit {
+		Period            3.40  # years
+		SemiMajorAxis     2.300  # AU
+		Eccentricity      0.050
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    9.22
+	Obliquity         24
+	Albedo            0.544
+}
+
+"p8" "BET Com"
+{
+	Texture "jupiterlike.jpg"
+	Radius 32895.0
+	Mass 34.8
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	EllipticalOrbit {
+		Period            7.34  # years
+		SemiMajorAxis     3.839  # AU
+		Eccentricity      0.153
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    11.42
+	Obliquity         32
+	Albedo            0.520
+}
+
+"p9" "BET Com"
+{
+	Texture "jupiterlike.jpg"
+	Radius 46917.8
+	Mass 98.7
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	EllipticalOrbit {
+		Period            18.23  # years
+		SemiMajorAxis     7.041  # AU
+		Eccentricity      0.036
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    9.66
+	Obliquity         41
+	Albedo            0.498
+}
+
+"p10" "BET Com"
+{
+	Texture "mars.jpg"
+	Radius 6978.6
+	Mass 0.5
+
+	Color   [ 1 0.75 0.7 ]
+	HazeColor [ 1 1 1 ]
+	HazeDensity 0.45
+
+	Atmosphere {
+		Height 30
+		Lower [ 0.8 0.6 0.6 ]
+		Upper [ 0.7 0.3 0.3 ]
+		Sky [ 0.83 0.75 0.65 ]
+	}
+
+	EllipticalOrbit {
+		Period            30.93  # years
+		SemiMajorAxis     10.014  # AU
+		Eccentricity      0.031
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    22.67
+	Obliquity         28
+	Albedo            0.286
+}
+
+"p11" "BET Com"
+{
+	Texture "jupiterlike.jpg"
+	Radius 51202.0
+	Mass 109.6
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	EllipticalOrbit {
+		Period            50.74  # years
+		SemiMajorAxis     13.932  # AU
+		Eccentricity      0.137
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    10.01
+	Obliquity         24
+	Albedo            0.483
+}
+
+"p12" "BET Com"
+{
+	Texture "jupiterlike.jpg"
+	Radius 45879.4
+	Mass 65.2
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	EllipticalOrbit {
+		Period            107.78  # years
+		SemiMajorAxis     23.020  # AU
+		Eccentricity      0.027
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    11.63
+	Obliquity         53
+	Albedo            0.455
+}
+
+"p13" "BET Com"
+{
+	Texture "pluto.jpg"
+	Radius 7531.2
+	Mass 0.7
+
+	Color [ 1.0 0.9 0.75 ]
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+	}
+
+	EllipticalOrbit {
+		Period            192.70  # years
+		SemiMajorAxis     33.909  # AU
+		Eccentricity      0.025
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    21.76
+	Obliquity         48
+	Albedo            0.219
+}
+
+"p14" "BET Com"
+{
+	Texture "callisto.jpg"
+	Radius 5036.9
+	Mass 0.2
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            300.16  # years
+		SemiMajorAxis     45.565  # AU
+		Eccentricity      0.058
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    26.92
+	Obliquity         33
+	Albedo            0.150
+}
+
+"p1" "61 UMa"
+{
+	Texture "callisto.jpg"
+	Radius 1137.4
+	Mass 0.0
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.21  # years
+		SemiMajorAxis     0.328  # AU
+		Eccentricity      0.022
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    1829.51
+	Obliquity         22
+	Albedo            0.070
+}
+
+"p2" "61 UMa"
+{
+	Texture "callisto.jpg"
+	Radius 2306.4
+	Mass 0.0
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.24  # years
+		SemiMajorAxis     0.359  # AU
+		Eccentricity      0.035
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    2098.84
+	Obliquity         23
+	Albedo            0.070
+}
+
+"p3" "61 UMa"
+{
+	Texture "callisto.jpg"
+	Radius 2983.9
+	Mass 0.1
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.37  # years
+		SemiMajorAxis     0.484  # AU
+		Eccentricity      0.058
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    3275.00
+	Obliquity         19
+	Albedo            0.070
+}
+
+"p4" "61 UMa"
+{
+	Texture "callisto.jpg"
+	Radius 2164.3
+	Mass 0.0
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.57  # years
+		SemiMajorAxis     0.639  # AU
+		Eccentricity      0.049
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    4976.61
+	Obliquity         18
+	Albedo            0.070
+}
+
+"p5" "61 UMa"
+{
+	Texture "Earthlike.png"
+	Radius 5599.0
+	Mass 0.7
+
+	Color [ 0.85 0.85 1.0 ]
+	SpecularColor [ 0.5 0.5 0.55 ]
+	SpecularPower 25.0
+	HazeColor [ 1 1 1 ]
+	HazeDensity 0.3
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.5 0.5 0.65 ]
+		Upper [ 0.3 0.3 0.6 ]
+		Sky [ 0.3 0.6 0.9 ]
+		CloudHeight 7
+		CloudSpeed 65
+		CloudMap "earth-clouds.png"
+	}
+
+	EllipticalOrbit {
+		Period            0.67  # years
+		SemiMajorAxis     0.711  # AU
+		Eccentricity      0.036
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    20.97
+	Obliquity         24
+	Albedo            0.320
+}
+
+"p6" "61 UMa"
+{
+	Texture "pluto.jpg"
+	Radius 6280.5
+	Mass 1.0
+
+	Color [ 1.0 0.9 0.75 ]
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+	}
+
+	EllipticalOrbit {
+		Period            1.14  # years
+		SemiMajorAxis     1.015  # AU
+		Eccentricity      0.061
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    15.74
+	Obliquity         25
+	Albedo            0.697
+}
+
+"p7" "61 UMa"
+{
+	Texture "gasgiant.jpg"
+	Radius 25140.6
+	Mass 14.5
+
+	Color [ 0.75 0.85 1.0 ]
+	HazeColor [ 0.5 0.8 1.0 ]
+	HazeDensity 0.2
+
+	EllipticalOrbit {
+		Period            3.35  # years
+		SemiMajorAxis     2.085  # AU
+		Eccentricity      0.068
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    13.49
+	Obliquity         17
+	Albedo            0.476
+}
+
+"p8" "61 UMa"
+{
+	Texture "x.jpg"
+	Radius 18576.3
+	Mass 4.0
+
+	Color [ 0.75 0.85 1.0 ]
+	HazeColor [ 0.5 0.8 1.0 ]
+	HazeDensity 0.2
+
+	EllipticalOrbit {
+		Period            12.29  # years
+		SemiMajorAxis     4.964  # AU
+		Eccentricity      0.013
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    18.96
+	Obliquity         28
+	Albedo            0.535
+}
+
+"p9" "61 UMa"
+{
+	Texture "jupiterlike.jpg"
+	Radius 68854.0
+	Mass 320.8
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	EllipticalOrbit {
+		Period            22.18  # years
+		SemiMajorAxis     7.363  # AU
+		Eccentricity      0.000
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    7.87
+	Obliquity         25
+	Albedo            0.521
+}
+
+"p10" "61 UMa"
+{
+	Texture "mars.jpg"
+	Radius 6792.7
+	Mass 0.5
+
+	Color   [ 1 0.75 0.7 ]
+	HazeColor [ 1 1 1 ]
+	HazeDensity 0.45
+
+	Atmosphere {
+		Height 30
+		Lower [ 0.8 0.6 0.6 ]
+		Upper [ 0.7 0.3 0.3 ]
+		Sky [ 0.83 0.75 0.65 ]
+	}
+
+	EllipticalOrbit {
+		Period            40.02  # years
+		SemiMajorAxis     10.907  # AU
+		Eccentricity      0.019
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    23.00
+	Obliquity         36
+	Albedo            0.322
+}
+
+"p11" "61 UMa"
+{
+	Texture "jupiterlike.jpg"
+	Radius 56206.3
+	Mass 124.0
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	EllipticalOrbit {
+		Period            84.43  # years
+		SemiMajorAxis     17.943  # AU
+		Eccentricity      0.078
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    10.33
+	Obliquity         51
+	Albedo            0.493
+}
+
+"p12" "61 UMa"
+{
+	Texture "callisto.jpg"
+	Radius 5919.4
+	Mass 0.3
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            191.37  # years
+		SemiMajorAxis     30.956  # AU
+		Eccentricity      0.077
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    24.74
+	Obliquity         40
+	Albedo            0.150
+}
+
+"p13" "61 UMa"
+{
+	Texture "callisto.jpg"
+	Radius 5455.4
+	Mass 0.3
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            291.81  # years
+		SemiMajorAxis     41.011  # AU
+		Eccentricity      0.000
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    25.82
+	Obliquity         48
+	Albedo            0.150
+}
+
+"p14" "61 UMa"
+{
+	Texture "callisto.jpg"
+	Radius 3145.9
+	Mass 0.0
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            333.06  # years
+		SemiMajorAxis     44.789  # AU
+		Eccentricity      0.060
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    34.25
+	Obliquity         67
+	Albedo            0.150
+}
+
+"p1" "ZET1 Ret"
+{
+	Texture "callisto.jpg"
+	Radius 1262.0
+	Mass 0.0
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.22  # years
+		SemiMajorAxis     0.336  # AU
+		Eccentricity      0.027
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    1917.64
+	Obliquity         22
+	Albedo            0.070
+}
+
+"p2" "ZET1 Ret"
+{
+	Texture "callisto.jpg"
+	Radius 2743.9
+	Mass 0.1
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.25  # years
+		SemiMajorAxis     0.363  # AU
+		Eccentricity      0.011
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    2160.12
+	Obliquity         11
+	Albedo            0.070
+}
+
+"p3" "ZET1 Ret"
+{
+	Texture "callisto.jpg"
+	Radius 2515.7
+	Mass 0.1
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.47  # years
+		SemiMajorAxis     0.555  # AU
+		Eccentricity      0.072
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    4080.01
+	Obliquity         21
+	Albedo            0.070
+}
+
+"p4" "ZET1 Ret"
+{
+	Texture "callisto.jpg"
+	Radius 1353.7
+	Mass 0.0
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            0.54  # years
+		SemiMajorAxis     0.613  # AU
+		Eccentricity      0.004
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    4728.42
+	Obliquity         16
+	Albedo            0.070
+}
+
+"p5" "ZET1 Ret"
+{
+	Texture "venuslike.jpg"
+	Radius 5383.0
+	Mass 0.6
+
+	HazeColor [ 0.5 0.35 0.2 ]
+	HazeDensity 0.35
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.8 0.5 ]
+		Upper [ 0.6 0.6 0.6 ]
+		Sky [ 0.8 0.8 0.5 ]
+	}
+
+	EllipticalOrbit {
+		Period            0.89  # years
+		SemiMajorAxis     0.855  # AU
+		Eccentricity      0.242
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    19.79
+	Obliquity         17
+	Albedo            0.520
+}
+
+"p6" "ZET1 Ret"
+{
+	Texture "Earthlike.png"
+	Radius 6652.4
+	Mass 1.1
+
+	Color [ 0.85 0.85 1.0 ]
+	SpecularColor [ 0.5 0.5 0.55 ]
+	SpecularPower 25.0
+	HazeColor [ 1 1 1 ]
+	HazeDensity 0.3
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.5 0.5 0.65 ]
+		Upper [ 0.3 0.3 0.6 ]
+		Sky [ 0.3 0.6 0.9 ]
+		CloudHeight 7
+		CloudSpeed 65
+		CloudMap "earth-clouds.png"
+	}
+
+	EllipticalOrbit {
+		Period            1.45  # years
+		SemiMajorAxis     1.185  # AU
+		Eccentricity      0.031
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    15.16
+	Obliquity         32
+	Albedo            0.190
+}
+
+"p7" "ZET1 Ret"
+{
+	Texture "jupiterlike.jpg"
+	Radius 30976.9
+	Mass 31.7
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	EllipticalOrbit {
+		Period            3.44  # years
+		SemiMajorAxis     2.106  # AU
+		Eccentricity      0.100
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    11.27
+	Obliquity         26
+	Albedo            0.481
+}
+
+"p8" "ZET1 Ret"
+{
+	Texture "gasgiant.jpg"
+	Radius 18818.8
+	Mass 5.2
+
+	Color [ 0.75 0.85 1.0 ]
+	HazeColor [ 0.5 0.8 1.0 ]
+	HazeDensity 0.2
+
+	EllipticalOrbit {
+		Period            5.51  # years
+		SemiMajorAxis     2.882  # AU
+		Eccentricity      0.088
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    16.82
+	Obliquity         24
+	Albedo            0.484
+}
+
+"p9" "ZET1 Ret"
+{
+	Texture "gasgiant.jpg"
+	Radius 20146.3
+	Mass 6.2
+
+	Color [ 0.75 0.85 1.0 ]
+	HazeColor [ 0.5 0.8 1.0 ]
+	HazeDensity 0.2
+
+	EllipticalOrbit {
+		Period            7.77  # years
+		SemiMajorAxis     3.625  # AU
+		Eccentricity      0.081
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    16.55
+	Obliquity         39
+	Albedo            0.468
+}
+
+"p10" "ZET1 Ret"
+{
+	Texture "jupiterlike.jpg"
+	Radius 34227.3
+	Mass 31.6
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	EllipticalOrbit {
+		Period            21.12  # years
+		SemiMajorAxis     7.063  # AU
+		Eccentricity      0.068
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    12.47
+	Obliquity         41
+	Albedo            0.469
+}
+
+"p11" "ZET1 Ret"
+{
+	Texture "jupiterlike.jpg"
+	Radius 68023.5
+	Mass 290.7
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	EllipticalOrbit {
+		Period            42.76  # years
+		SemiMajorAxis     11.309  # AU
+		Eccentricity      0.006
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    8.17
+	Obliquity         41
+	Albedo            0.461
+}
+
+"p12" "ZET1 Ret"
+{
+	Texture "jupiterlike.jpg"
+	Radius 39971.2
+	Mass 35.9
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	EllipticalOrbit {
+		Period            175.42  # years
+		SemiMajorAxis     28.970  # AU
+		Eccentricity      0.232
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    13.66
+	Obliquity         56
+	Albedo            0.519
+}
+
+"p13" "ZET1 Ret"
+{
+	Texture "callisto.jpg"
+	Radius 2310.9
+	Mass 0.0
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            628.41  # years
+		SemiMajorAxis     67.822  # AU
+		Eccentricity      0.030
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    40.02
+	Obliquity         70
+	Albedo            0.150
+}
+
+"p14" "ZET1 Ret"
+{
+	Texture "asteroid.jpg"
+	Radius 614.6
+	Mass 0.0
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            1632.92  # years
+		SemiMajorAxis     128.189  # AU
+		Eccentricity      0.073
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    77.74
+	Obliquity         63
+	Albedo            0.150
+}
+
+"p15" "ZET1 Ret"
+{
+	Texture "asteroid.jpg"
+	Radius 161.6
+	Mass 0.0
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            2615.28  # years
+		SemiMajorAxis     175.478  # AU
+		Eccentricity      0.023
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    151.64
+	Obliquity         83
+	Albedo            0.150
+}
+
+"p16" "ZET1 Ret"
+{
+	Texture "asteroid.jpg"
+	Radius 37.3
+	Mass 0.0
+
+	Color   [ 0.52 0.47 0.42 ]
+	BlendTexture true
+
+	EllipticalOrbit {
+		Period            4754.53  # years
+		SemiMajorAxis     261.385  # AU
+		Eccentricity      0.254
+		Inclination       0.0
+		AscendingNode     0
+		LongOfPericenter  0
+	        MeanLongitude 0
+	}
+
+	RotationPeriod    315.46
+	Obliquity         76
+	Albedo            0.150
+}
+
